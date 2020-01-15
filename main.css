@@ -31,14 +31,25 @@ body {
 .nav-item a {
     margin: 1em;
     display: block;
-    color: maroon;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .navbar a:hover{
-    color: blue;
-    background-color: midnightblue;
+    color: black;
+    background-color: maroon;
     
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    background-color: brown;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
